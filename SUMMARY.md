@@ -1,7 +1,7 @@
 # Summary
-* [前言](README.md)
-* [开发规范](guifan.md)
-  * [CSS开发注意]
-  * [JavaScript开发注意]
-  * [视图开发规范]
-  * [滨州网2.0项目树]
+1 [前言](README.md)
+2 [开发规范](guifan.md)
+  2.1 [CSS开发注意](css.md)
+  2.2 [JavaScript开发注意](js.md)
+  2.3 [视图开发规范](view.md)
+  2.4 [滨州网2.0项目树](tree.md)
