@@ -3,7 +3,7 @@
   * [加入前端](before/job.md)
   * [前端的十荣十耻](before/10.md)
   * [日常规定](before/work.md)
-* # 质量
+* [○ 质量]()
   * [CSS开发注意](standard/css.md)
   * [JavaScript开发注意](standard/js.md)
   * [视图开发规范](standard/view.md)
