@@ -1,7 +1,7 @@
 > 以客户为中心，以具有艰苦奋斗精神的员工为根本，长期坚持艰苦奋斗
 
-![亦菲表演机器猫](http://ww2.sinaimg.cn/bmiddle/88070423gw1ep30aw8an7g204d04gkgd.gif =400x400)
-![亦菲表演机器猫](http://ww2.sinaimg.cn/bmiddle/88070423gw1ep30aw8an7g204d04gkgd.gif =400x400)
+![亦菲表演机器猫](https://images.binzhouw.com/avata/defaultAvatar.png)
+![亦菲表演机器猫](https://images.binzhouw.com/avata/defaultAvatar.png)
 
 #### 作风
 
