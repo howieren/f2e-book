@@ -16,3 +16,7 @@
 > 血性：勇于拼搏的血性是我们快速发展的基础  
 > 坚持：永不言败的坚持是我们持续发展的保障  
 > 学习：永无止境的学习是我们持续发展的动力
+
+#### 快捷链接
+
+[ThinkPHP手册](http://www.kancloud.cn/manual/thinkphp5/118003) , [Jquery手册](http://jquery.cuishifeng.cn/) , [滨州网接口文档](http://139.129.218.174:8088/) , [关键词相关接口文档](http://121.42.174.5/myapp/listAllApis.php) , [记笔记](https://app.yinxiang.com/Home.action) , [OSS直传文档](https://help.aliyun.com/document_detail/31927.html?spm=5176.87240.400427.65.TvBDms) , [Animate](https://daneden.github.io/animate.css/) , [CDN静态资源库](http://www.bootcdn.cn/) , [bootstrap](http://www.bootcss.com/) , [高质量学习视频](https://www.laravist.com/) , [前端视频教程](http://www.imooc.com/course/list?c=fe)

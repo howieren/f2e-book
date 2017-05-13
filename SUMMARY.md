@@ -9,7 +9,6 @@
 * [3 管理](guanli.md)
   * [3.1 协作规范](standard/xiezuo.md)
   * [3.2 日常规定](standard/guiding.md)
-* [4 资料](doc.md)
-  * [4.1 滨州网2.0项目树](docs/tree.md)
+* [4 常用资料](doc.md)
 * [5 计划](jihua.md)
 * [6 总结](zongjie.md)
