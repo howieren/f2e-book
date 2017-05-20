@@ -1,6 +1,6 @@
 # Summary
 * [1 文化](README.md)
-  * [1.1 加入前端](before/job.md)
+  * [1.1 前端岗位](before/job.md)
   * [1.2 前端的十荣十耻](before/10.md)
   * [1.3 日常规定 (2017-05-16)](before/work.md)
   * [1.4 警告规则](before/warning.md)
