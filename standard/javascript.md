@@ -1,6 +1,6 @@
-## JavaScript编码规范
+## JavaScript编码规范 V1.2
 
-* 常量及全局变量采用全部大写的形式.
+1. 常量及全局变量采用全部大写的形式.
 
 * 变量的命名使用骆驼命名法，例如：``strParsor. maxLength``
 
@@ -10,14 +10,14 @@
 
 * 私有类的成员变量命名前面加下划线``（_）``。例如：
 
-```
-var MyClass = function(){
-  var _buffer;
-  this.doSomething = function(){
-  };
-}
-this._somePrivateVariable = statement;
-```
+  ```
+  var MyClass = function(){
+    var _buffer;
+    this.doSomething = function(){
+    };
+  }
+  this._somePrivateVariable = statement;
+  ```
 
 * 前缀为 "is" 的变量应该为布尔值，同理 "has";
 
@@ -143,16 +143,15 @@ for(i = 0; i < 100; i++){
 
 ### 注释
 
-* 保持良好的注释习惯。
+1. 保持良好的注释习惯。
 
-* 类/函数/方法前需添加注释,并注明参数类型,返回值回类型。
-例如,
+* 类/函数/方法前需添加注释,并注明参数类型,返回值类型。例如,
 
-```
-/**
- * 金额大小写转换函数
- * @param Int {number} 数字金额
- * @param Num {number} 数字
- * @return String 大写金额
- */
-```
+  ```
+  /**
+   * 金额大小写转换函数
+   * @param Int {number} 数字金额
+   * @param Num {number} 数字
+   * @return String 大写金额
+   */
+  ```
