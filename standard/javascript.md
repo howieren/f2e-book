@@ -29,20 +29,20 @@
 
 ## 缩进
 
-* 采用 TAB 键缩进, 统一为4个字符,
+1. 采用 TAB 键缩进, 统一为4个字符,
 
-```
-function demo(param){
-    var a1 = 1
-    …
-}
-此规则亦适用于函数的参数：
-var o = someObject.get(
-    Expression1,
-    Expression2,
-    Expression3
-);
-```
+  ```
+  function demo(param){
+      var a1 = 1
+      …
+  }
+  此规则亦适用于函数的参数：
+  var o = someObject.get(
+      Expression1,
+      Expression2,
+      Expression3
+  );
+  ```
 
 * 变量必须在声明初始化以后才能使用，即便是 NULL 类型;
 
@@ -55,87 +55,87 @@ var o = someObject.get(
 * 浮点变量必须指明实部，即使为零（使用 0. 开头）。
 
 ### 代码块
-普通代码段：
-```
-while (!isDone){
-	doSomething();
-	isDone = moreToDo();
-}
+1. 普通代码段：
+  ```
+  while (!isDone){
+  	doSomething();
+  	isDone = moreToDo();
+  }
 
-// IF 语句：
-if (someCondition){
-	statements;
-} else if (someOtherCondition){
-	statements;
-} else {
-	statements;
-}
+  // IF 语句：
+  if (someCondition){
+  	statements;
+  } else if (someOtherCondition){
+  	statements;
+  } else {
+  	statements;
+  }
 
-//FOR 语句：
-for (initialization; condition; update){
-	statements;
-}
+  //FOR 语句：
+  for (initialization; condition; update){
+  	statements;
+  }
 
-//WHILE 语句：
-while (!isDone) {
-	doSomething();
-	isDone = moreToDo();
-}
+  //WHILE 语句：
+  while (!isDone) {
+  	doSomething();
+  	isDone = moreToDo();
+  }
 
-//DO ... WHILE 语句：
-do {
-	statements;
-} while (condition);
+  //DO ... WHILE 语句：
+  do {
+  	statements;
+  } while (condition);
 
-//SWITCH 语句：
-switch (condition) {
-	case ABC:
-		statements; break;
-	default:
-		statements; break;
-}
+  //SWITCH 语句：
+  switch (condition) {
+  	case ABC:
+  		statements; break;
+  	default:
+  		statements; break;
+  }
 
-// TRY ... CATCH 语句 ：
-try {
-	statements;
-} catch(e) {
-	statements;
-} finally {
-	statements;
-}
-```
+  // TRY ... CATCH 语句 ：
+  try {
+  	statements;
+  } catch(e) {
+  	statements;
+  } finally {
+  	statements;
+  }
+  ```
 
 * 单行的 IF，WHILE 或者 FOR 语句需加入括号 ：
 
-```
-if (condition){ statement; }
-while (condition){ statement; }
-for (intialization; condition; update){ statement;}
-```
+  ```
+  if (condition){ statement; }
+  while (condition){ statement; }
+  for (intialization; condition; update){ statement;}
+  ```
 
 * 单行的 IF – ELSE 允许不加括号:
 
-```
-if(condition)
-	Statement;
-else
-	Statement;
-```
+  ```
+  if(condition)
+  	Statement;
+  else
+  	Statement;
+  ```
 
 * 操作符使用空格隔开（包括三元操作符）,如:
-```
-var x = a – b;
-var y = result == true ? 1 : 0;]
-```
+  ```
+  var x = a – b;
+  var y = result == true ? 1 : 0;]
+  ```
 
 * 逗号（,)与for循环中的封号(;)后添加空格。例如:
 
-```
-var test = Array(), test2;
-for(i = 0; i < 100; i++){
-    Statements;
-}
-```
+  ```
+  var test = Array(), test2;
+  for(i = 0; i < 100; i++){
+      Statements;
+  }
+  ```
 
 * 冒号(:)后添加空格
 
