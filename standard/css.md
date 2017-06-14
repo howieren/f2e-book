@@ -52,7 +52,6 @@
 * 页脚：footer
 * 容器：wrap
   常用全局内容
-* 当前导航区域：current
 * 列表第一项：first
 * 列表最后项：last
 * 标签页：tab

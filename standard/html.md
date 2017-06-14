@@ -53,8 +53,6 @@
 
 * 禁止submit上绑定onclick等事件使用submit方法提交表单
 
-* 当 input 元素的顺序由于样式需要调整时，应当指定 tabindex 属性
-
 * 关键的控件处应当指定 accesskey 属性 可参考的accesskey标准
 
 * 与控件对应的文本必须使用 label 元素标记，且使用 for 属性指向该控件 id
