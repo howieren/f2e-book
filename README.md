@@ -1,4 +1,4 @@
-update 2017-07-19 19:57:45
+update 2017-07-19 22:11:40
 #### 简介
 
 本前端工程师团队隶属于滨州加联加信息科技有限公司，起源于2015，拥有2年的团建协作经验，进取做一个作风和精神综合优良的前沿前端技术团队。
@@ -27,7 +27,7 @@ update 2017-07-19 19:57:45
 
 试听：[虾米](http://www.xiami.com/song/8GhwGAfb50f?spm=a1z1s.6928797.1561534521.2.rtEZcY)，[网易云音乐](http://music.163.com/#/song?id=4003283&autoplay=true&market=baiduhd)，[酷狗](http://www.kugou.com/song/26s0a07.html?frombaidu?frombaidu#hash=369562B01A234C0F483609968899B39D&album_id=0)
 
-下载：
+下载：http://pan.baidu.com/s/1mi5KpMK 密码：ljbl
 
 #### 快捷链接
 
