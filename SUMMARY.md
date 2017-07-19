@@ -1,5 +1,5 @@
 # Summary
-* [1 文化](default.md)
+* [1 文化](readme.md)
   * [1.1 前端岗位](before/job.md)
   * [1.2 前端的十荣十耻](before/10.md)
   * [1.3 日常规定](before/work.md)
