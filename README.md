@@ -22,8 +22,12 @@ update 2017-07-19 19:57:45
 
 #### 团乐
 乐名：Balloons
+
 作者：The Candle Thieves
-在线：[虾米](http://www.xiami.com/song/8GhwGAfb50f?spm=a1z1s.6928797.1561534521.2.rtEZcY)
+
+试听：[虾米](http://www.xiami.com/song/8GhwGAfb50f?spm=a1z1s.6928797.1561534521.2.rtEZcY)，[网易云音乐](http://music.163.com/#/song?id=4003283&autoplay=true&market=baiduhd)，[酷狗](http://www.kugou.com/song/26s0a07.html?frombaidu?frombaidu#hash=369562B01A234C0F483609968899B39D&album_id=0)
+
+下载：
 
 #### 快捷链接
 
