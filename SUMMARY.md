@@ -8,5 +8,5 @@
   * [2.1 HTML规范](standard/html.md)
   * [2.2 CSS编写规范](standard/css.md)
   * [2.3 JavaScript编码规范](standard/javascript.md)
-  * [2.4 ThinkPHP开发规范](standard/thinkphp.md)
+  * [2.4 TP界面开发规范](standard/thinkphp.md)
 * [3 视图标签说明](tag.md)
