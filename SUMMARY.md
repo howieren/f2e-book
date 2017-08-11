@@ -19,4 +19,4 @@
   * [3.7 搜索](tag/tag.search.md)
   * [3.8 模板](tag/tag.template.md)
   * [3.9 用户](tag/tag.user.md)
-  * [3.10 小玩意](standard/toy.md)
+  * [3.10 小玩意](tag/tag.toy.md)
