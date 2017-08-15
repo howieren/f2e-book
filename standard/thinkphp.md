@@ -3,7 +3,7 @@ update 2017-08-04 08:42:16
 
 1. 视图目录：以控制器名命名
 
-* 视图文件：以控制器方法名命名，``base.html``文件为主继承文件，``base_*.html`` 为辅继承文件，``*``为功能单个单词命名；``mod_*.html``为模块视图引用文件; [更多请参考TP文档](http://www.kancloud.cn/manual/thinkphp5/118003)
+* 视图文件命名：以控制器方法名命名，``base.html``文件为主继承文件，``base_*.html`` 为辅继承文件，``*``为功能单个单词命名；``mod_*.html``为模块视图引用文件;如果是正常get主页面不得用间隔符号，除非另有用途用下划线间隔，如：正常get页面``login.html``，公共模块``mod_slide.html``，ajax页``login_ajax.html``，post页``login_post.html``； [更多请参考TP文档](http://www.kancloud.cn/manual/thinkphp5/118003)
 
 * 提倡重复使用的东西一定要分离出来模块或继承文件，已经有了的提倡拿来用，或跟作者协商迭代，而不是复制粘贴，增加将来的维护成本。
 
