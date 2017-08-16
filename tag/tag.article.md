@@ -81,8 +81,14 @@ update 2017-08-11 16:03:46
 {/Article:applist}
 ```
 
+**slide** 轮播幻灯(非闭合)。可用属性：* name,* uid,size,栗子：
+```
+{Article:slide name='item' uid='131' page="1" size="4"}
+{:dump($item)}
+{/Article:slide}
+```
 
-**advertlimit** 获取轮播图--限制条数的。可用属性：\*name,\*uid,size,page
+**advertlimit** （暂停使用）获取轮播图--限制条数的。可用属性：\*name,\*uid,size,page
 栗子：
 
 ```
