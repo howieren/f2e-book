@@ -1,4 +1,4 @@
-update 2017-08-11 16:03:46
+update 2017-08-17 08:26:37
 ## Article 标签（关于内容的标签）
 
 **list** 获取文章列表标签。可用属性：\*name,\*uid,size,page,category,recommend,date,hot,top,total,offset
@@ -81,7 +81,7 @@ update 2017-08-11 16:03:46
 {/Article:applist}
 ```
 
-**slide** 轮播幻灯(非闭合)。可用属性：* name,* uid,size,栗子：
+**slide** 轮播幻灯(非闭合)。可用属性：* name,* uid,size,key栗子：
 ```
 {Article:slide name='item' uid='131' page="1" size="4"}
 {:dump($item)}
@@ -98,7 +98,7 @@ update 2017-08-11 16:03:46
 
 ```
 
-**gethotarticle** 获取某个应用号设为热点的文章。可用属性：\*name,\*uid,page,size,category
+**gethotarticle （停止使用，请用list）** 获取某个应用号设为热点的文章。可用属性：\*name,\*uid,page,size,category
 栗子：
 
 ```
@@ -108,7 +108,7 @@ update 2017-08-11 16:03:46
 
 ```
 
-**getmoreread** 获取某个应用号设为热点的文章。可用属性：\*name,\*uid,page,size,category
+**getmoreread （停止使用，请用list）** 获取某个应用号设为热点的文章。可用属性：\*name,\*uid,page,size,category
 栗子：
 
 ```
