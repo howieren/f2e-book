@@ -72,7 +72,7 @@ update 2017-08-17 08:26:37
 
 ```
 
-**applist** 获取文章列表标签(去掉了内置循环，非闭合标签，用于应用号的重构)。可用属性：\*name,\*uid,size,page,category,recommend,date,hot,top,total,offset
+**applist （停止使用，请用list）** 获取文章列表标签(去掉了内置循环，非闭合标签，用于应用号的重构)。可用属性：\*name,\*uid,size,page,category,recommend,date,hot,top,total,offset
 栗子：
 
 ```
