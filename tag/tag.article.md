@@ -100,7 +100,7 @@ update 2017-08-17 08:26:37
 {/Article:slide}
 ```
 
-**advertlimit** （暂停使用）获取轮播图--限制条数的。可用属性：\*name,\*uid,size,page
+**advertlimit** （再循环标签）获取轮播图--限制条数的。可用属性：\*name,\*uid,size,page
 栗子：
 
 ```
