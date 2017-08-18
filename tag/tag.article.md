@@ -10,6 +10,18 @@ update 2017-08-17 08:26:37
 {/Article:list}
 ```
 
+**page** 分页标签。可用属性 * name,* total(总条数),* page(当前页码),size(每页条数,默认10)
+栗子：
+```
+{assign name="p" value=":input('p',1)"}
+{Article:page name="page" total='434' size='10' page='$p'}
+{eq name="p" value="$page.value"}
+<li class="on">{$page.title}</li>
+{else/}
+<li><a href="{:url('index/test/index',['p'=>$page.value])}">{$page.title}</a></li>
+{/eq}
+{/Article:page}
+```
 **headlines** 头条文章列表标签。可用属性：\*name,size,page,top
 栗子：
 
@@ -72,7 +84,7 @@ update 2017-08-17 08:26:37
 
 ```
 
-**applist （停止使用，请用list）** 获取文章列表标签(去掉了内置循环，非闭合标签，用于应用号的重构)。可用属性：\*name,\*uid,size,page,category,recommend,date,hot,top,total,offset
+**applist** 获取文章列表标签(去掉了内置循环，非闭合标签，用于应用号的重构)。可用属性：\*name,\*uid,size,page,category,recommend,date,hot,top,total,offset
 栗子：
 
 ```
@@ -95,25 +107,5 @@ update 2017-08-17 08:26:37
 {Article:advertlimit name='dataname' uid='131' page="1" limit="4"}
 {:dump($dataname)}
 {/Article:advertlimit}
-
-```
-
-**gethotarticle （停止使用，请用list）** 获取某个应用号设为热点的文章。可用属性：\*name,\*uid,page,size,category
-栗子：
-
-```
-{Article:gethotarticle name='item' uid='131' page="1" size="4" category="412"}
-{:dump($item)}
-{/Article:gethotarticle}
-
-```
-
-**getmoreread （停止使用，请用list）** 获取某个应用号设为热点的文章。可用属性：\*name,\*uid,page,size,category
-栗子：
-
-```
-{Article:getmoreread name='item' uid='131' page="1" size="4" category="402"}
-{:dump($item)}
-{/Article:getmoreread}
 
 ```
