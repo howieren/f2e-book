@@ -9,6 +9,7 @@
   * [2.2 CSS编写规范](standard/css.md)
   * [2.3 JavaScript编码规范](standard/javascript.md)
   * [2.4 TP界面开发规范](standard/thinkphp.md)
+  * [2.5 模板标签开发规范](standard/tagdev.md)
 * [3 标签说明](tag/tag.md)
   * [3.1 内容标签](tag/tag.article.md)
   * [3.2 评论标签](tag/tag.comment.md)
