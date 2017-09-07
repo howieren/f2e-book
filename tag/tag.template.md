@@ -7,11 +7,3 @@
   {:dump($item)}
 {/Template:tanklist}
 ```
-
-**categoryname** 获取微吧名称。可用属性：category
-栗子：
-
-```
-{Template:categoryname name="item" category="412"/}
-  {:dump($item)}
-```

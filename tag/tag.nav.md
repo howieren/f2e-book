@@ -1,4 +1,4 @@
-update 2017-08-11 15:50:56
+update 2017-09-07 14:45:17
 ## Nav标签（关于导航和菜单的标签）
 
 **shortcut：** 获得快捷方式列表标签。可用属性：\*name，\*type（属性是类型解释：1.内容 2.行业 3.服务 4.地区），size，page。栗子：
@@ -35,29 +35,38 @@ update 2017-08-11 15:50:56
   {:dump($items)}
 ```
 
-**categoryinfo：** 根据栏目ID获得栏目信息。可用属性：\*name，\*category
+* **childnav** 根据父标签id获取子标签列表标签。可用属性：\*name，\*tid
 
-栗子：
+**栗子：**
 
 ```
-{Nav:categoryinfo name="category" category="1869" /}
+{Nav:childnav name="items" tid="287" /}
   {:dump($items)}
 ```
 
-**childtagbyid** 根据父标签id获取子标签列表标签。可用属性：\*name，\*tid
+* **chilidcategory** 根据weibaid获取子栏目。可用属性：\*name，\*uid（用户id） category(栏目id)
 
-栗子：
-
-```
-{Nav:childtagbyid name="items" tid="287" /}
-  {:dump($items)}
-```
-
-**tagdetailbyid** 根据标签id获取标签内容。可用属性：\*name，\*tid
-
-栗子：
+**栗子：**
 
 ```
-{Nav:tagdetailbyid name="items" tid="262" /}
-  {:dump($items)}
+{Nav:childcategory name="item" uid="247" category="899"}
+  {:dump($item)}
+{/Nav:childcategory}
+```
+
+* **categoryinfo** 根据栏目id获取栏目信息。可用属性：category
+**栗子：**
+
+```
+ {Nav:categoryinfo name="item" category="412"/}
+ {:dump($item);}
+
+```
+
+* **column** 栏目列表标签。可用属性：name
+**栗子：**
+
+```
+{Nav:column name="item"/}
+  {:dump($item)}
 ```
