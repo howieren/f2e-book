@@ -1,6 +1,6 @@
-update 2017-09-07 15:30:46
-## 滨州圈标签
+update 2017-09-07 15:25:24
 
+滨州圈相关标签
 * **member**  获取圈成员。可用属性有：* name , * uid(圈id必传),type(非必填，默认获取全部成员,0普通成员，1管理员，2圈主),page,size,kind(kind是必传参数).
 kind是active时，取最近活跃成员。可用属性：name，uid(圈id必传)，page，size。
 kind是member时，取圈成员，可用属性：name , * uid(圈id必传),type(非必填，默认获取全部成员,0普通成员，1管理员，2圈主)
